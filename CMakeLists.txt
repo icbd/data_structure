@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.6)
+
+# main
+PROJECT(data_structure)
+
+ADD_SUBDIRECTORY(data_structure)
+ADD_SUBDIRECTORY(LNode_test)
+ADD_SUBDIRECTORY(LNode)
