@@ -45,7 +45,7 @@ int main(int argc, const char *argv[]) {
             }
             case CHANGE: {
 
-                char * cpy = calloc(strlen(*argv), sizeof(char)) + 1;
+                char * cpy = calloc(strlen(*argv) + 1, sizeof(char));
                 strcpy(cpy,*argv);
 
                 char *dot_at = strrchr(cpy, '.');
