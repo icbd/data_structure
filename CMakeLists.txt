@@ -7,3 +7,4 @@ ADD_SUBDIRECTORY(LNode_test)
 ADD_SUBDIRECTORY(LNode)
 
 ADD_SUBDIRECTORY(LanguageAbout/argc_argv)
+ADD_SUBDIRECTORY(LanguageAbout/function_call)
